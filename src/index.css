@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Montserrat:ital@1&family=Mukta:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Inconsolata';
+    background-color: transparent;
+}
+li,
+button{
+    font-family: 'Mukta';
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat',sans-serif;
+}
+ul{
+    list-style: none;
+}

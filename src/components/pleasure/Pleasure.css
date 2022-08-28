@@ -1,0 +1,23 @@
+.Pleasure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    margin: 40px auto;
+}
+.Options{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 30%;
+}
+.Options > span {
+    font-size: 4rem;
+    font-weight: 700;
+    color: green;
+}
+.Options >div> p {
+    max-width: 70%;
+    margin-top: 5px;
+}
