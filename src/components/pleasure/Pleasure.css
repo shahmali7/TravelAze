@@ -5,6 +5,7 @@
     width: 100%;
     height: fit-content;
     margin: 40px auto;
+    padding-left: 90px;
 }
 .Options{
     display: flex;

@@ -5,6 +5,7 @@ import History from './components/History/History';
 import Hero from './components/Home/Hero';
 import Pleasure from './components/pleasure/pleasure';
 import Regions from './components/Regions/Regions';
+import Tours from './components/Tours/Tours';
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
       <Hero/>
       <Pleasure/>
       <Regions/>
-      {/* <History/>
-      <Footer/> */}
+      <History/>
+      <Tours/>
+      <Footer/> 
    </>
   );
 }

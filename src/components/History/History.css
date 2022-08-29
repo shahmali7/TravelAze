@@ -1,0 +1,15 @@
+.ContainerHistory {
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 40px auto;
+    gap: 20px;
+}
+.CityHistory{
+    height: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+    border: 1px solid black;
+    cursor: pointer;
+}
