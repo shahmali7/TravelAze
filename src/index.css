@@ -16,9 +16,7 @@ button{
     background-color: transparent;
 }
 li,
-button{
-    font-family: 'Mukta';
-}
+
 a{
     text-decoration: none;
     list-style: none;
@@ -26,4 +24,10 @@ a{
 }
 ul{
     list-style: none;
+}
+p{
+    font-family: 'Inconsolota';
+}
+h1,h2,h3,h4,h5,button{
+    font-family: 'Mukta';
 }
