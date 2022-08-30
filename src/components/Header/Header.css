@@ -27,15 +27,16 @@ nav{
    position: relative;
 }
 
-.link >a{
+.link {
     font-size: 1.2rem;
     font-weight: 700;
     color: blue;
     padding-bottom: 5px;
     width: 10rem;
     margin-bottom: 10px;
+    cursor: pointer;
 }
-.link > a:active {
+.link:active {
     color: blue;
 }
 .link>a::before{

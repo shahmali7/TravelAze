@@ -5,7 +5,7 @@ import './History.css'
 
 const History = () => {
   return (
-    <div className='ContainerHistory'>
+    <div name='history' className='ContainerHistory'>
       {Cities.map((item) => {
         return (
           <ReadMore key={item.id} name={item.name}>

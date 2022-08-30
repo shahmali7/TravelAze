@@ -4,6 +4,9 @@ import Logo from '../../assets/logoMain.png'
 import { HiOutlineMenuAlt4 } from 'react-icons/hi'
 import { AiOutlineClose } from 'react-icons/ai'
 import { BsSuitHeart } from 'react-icons/bs'
+import {Link} from 'react-scroll'
+
+
 import './Header.css'
 const Header = () => {
   
@@ -14,10 +17,10 @@ const Header = () => {
       </a>
       <nav>
         <ul className='Links'>
-          <li className='link' ><a href='#Home'>Home</a></li>
-          <li className='link' ><a href='#Regions'>Regions</a></li>
-          <li className='link' ><a href='#History'>History</a></li>
-          <li className='link' ><a href='#Tours'>Tours</a></li>
+          <Link to='home' smooth={true} duration={500}><li className='link' >Home</li></Link>
+          <Link  to='regions' smooth={true} duration={500}><li className='link' >Regions</li></Link>
+          <Link  to='history' smooth={true} duration={500}><li className='link'>History</li></Link>
+          <Link to='tours'  smooth={true} duration={500} ><li className='link'>Tours</li></Link>
           <button className='Icon'><AiOutlineClose /></button>
         </ul>
       </nav>

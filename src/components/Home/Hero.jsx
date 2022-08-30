@@ -16,7 +16,7 @@ const Hero = () => {
     alert(e.target.value)
   }
   return (
-    <div className='Banner'>
+    <div name='home' className='Banner'>
       <video src={Video} autoPlay muted loop />
       <div className='search'>
 

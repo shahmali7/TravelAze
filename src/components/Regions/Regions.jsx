@@ -3,7 +3,7 @@ import './Regions.css'
 import CenterMode from './Slider'
 const Regions = () => {
   return (
-    <div className='Regions'>
+    <div name='regions' className='Regions'>
         <div className='headReg'>
             <h2>Regions</h2>
         </div>
