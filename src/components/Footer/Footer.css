@@ -1,0 +1,70 @@
+.Footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    margin-top: 20px;
+}
+.FooterHead{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4),black), url('../../assets/baku-azerbaijan-shutterstock-randrei.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    gap: 50px;
+}
+.FooterAlt{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #05021af2;
+    padding-bottom: 30px;
+    gap: 20px;
+    color: white;
+}
+.FooterHead > h2 {
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+}
+.Contact{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+.Contact > input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1.2rem;
+    width: 30%;
+    padding-bottom: 4px;
+    border-bottom: 1.5px solid white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: 15px;
+    color: white;
+}
+.Contact button {
+    width: 10%;
+    font-size: 1.2rem;
+    color: white;
+    
+}
+.FooterLogo{
+    height:170px;
+    width: 200px;
+    margin:20px auto ;
+    border-bottom-left-radius: 50px;
+}

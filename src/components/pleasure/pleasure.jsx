@@ -5,7 +5,7 @@ import {TbLicense} from 'react-icons/tb'
 import './Pleasure.css'
 const Pleasure = () => {
   return (
-    <div className='Pleasure'>
+    <div id='pleasure' className='Pleasure'>
         <div className='Options'>
            <span>
              <BiLike/>

@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import { Cities } from "../../FakeApi/Cities";
 import './Regions.css'
+import BasicModal from "./OpenModal";
+
 export default class CenterMode extends Component {
   render() {
     const settings = {
@@ -21,11 +23,12 @@ export default class CenterMode extends Component {
                 <div key={item.id}>
                    <h3 style={{textAlign:'center',marginBottom:'10px',marginRight:'45px',textTransform:'uppercase'}}>{item.name}</h3>
                    <img src={item.image} alt='' className="SliderImage"/>
-                   <button className="GoDetail">Details</button>
+                   <button className="GoDetail"><BasicModal item={item}/></button>
                 </div>
             )
           })}
         </Slider>
+        
       </div>
     );
   }
