@@ -15,6 +15,13 @@ export const CityReducer=(state=initialState,action)=>{
         ...state,
         BasketData:[...state.BasketData,action.payload.item]
     }
+    case Actiontypes.Delete_ITEM:
+        return {
+            ...state,
+            BasketData : state.BasketData.filter((city)=>{
+                return city.id !== action.payload.id
+            })
+        }
     default:
         return state
    }
